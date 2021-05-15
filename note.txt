@@ -1,0 +1,30 @@
+一. 安装GIT
+在shell中输入 git + 回车，查看GIT版本，若没有安装GIT，则shell会提示安装GIT的命令，在shell中输入提示的命令即可安装GIT 
+
+二. 设置用户名和email
+ 设置用户名： git config --global user.name "qiaoyun"      (global表示本机器上的所有GIT仓库都使用这个用户名)
+ 设置email: git config --global user.email "346872849@qq.com"
+ PS:查看用户名：git config user.name
+    查看email: git config user.email
+    查看所有用户信息: git config --list
+    
+三. 新建一个仓库：testgit
+ 新建一个文件夹: testgit
+ 在shell中进入此文件夹中，然后输入命令：git init
+ 在此文件夹中新建一个文件 readme.txt，打开文件，输入内容 "first creat"后保存并退出
+ 在shell中第一次提交版本: git add readme.txt,   git commit -m 'first commit'
+ 第一次提交版本后，在shell中查看当前分支为master: git branch    (git branch -a)
+ 
+ 
+ 
+ https://zhuanlan.zhihu.com/p/93436925    介绍加快域名访问速度方法:在文件hosts建立IP和域名的映射
+ https://github.com.ipaddress.com/  	此网站可查找域名的IP
+ 140.82.114.4    github.com
+ 199.232.69.194  github.global.ssl.fastly.net
+ 
+ https://blog.csdn.net/qq_15192373/article/details/81093542 介绍编辑文件hosts的方法:
+ sudo gedit /etc/hosts
+ 
+ 
+ 
+     
